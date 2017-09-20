@@ -1,0 +1,127 @@
+<!DICTYPE html>
+<html>
+
+<head>
+    <title>
+        Recursos Hídricos
+    </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Débora Queiroz e Gustavo Vilar">
+    <meta name="description" content="Prova">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/form.js"></script>
+</head>
+
+<body class="grey lighten-4">
+    <header>
+        <nav class="cyan darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Recursos Hídricos</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="active"><a href="form.html">Adesão</a></li>
+                </ul>
+                <ul id="slide-out" class="side-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="form.html">Adesão</a></li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <nav>
+            <div class="nav-wrapper cyan darken-4">
+                <div class="col s12">
+                    <a href="index.html" class="breadcrumb">Home</a>
+                    <a href="form.html" class="breadcrumb">Formulário de Adesão</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h4 class="texto center black-text">Formulário de Adesão de Colaboradores</h4>
+        <div class="divider cyan darken-4"></div>
+        <p></p>
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="nome" type="text" class="validate">
+                    <label for="nome">Nome</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s10">
+                    <input name="rua" type="text" class="validate">
+                    <label for="rua">Rua</label>
+                </div>
+                <div class="input-field col s2">
+                    <input name="num" type="number" class="validate">
+                    <label for="num">Nº</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input name="bairro" type="text" class="validate">
+                    <label for="bairro">Bairro</label>
+                </div>
+                <div class="input-field col s6">
+                    <input name="comp" type="text">
+                    <label for="comp">Complemento</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <select name="estado" class="validate">
+                      <option value="" disabled selected>Estado</option>
+                      <option value="CE">CE</option>
+                      <option value="PB">PB</option>
+                      <option value="PE">PE</option>
+                      <option value="RN">RN</option>
+                    </select>
+                    <label for="estado">Estado</label>
+                </div>
+                <div class="input-field col s6">
+                    <input name="cidade" type="text" class="validate">
+                    <label for="cidade">Cidade</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light cyan darken-4" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="page-footer cyan darken-4">
+        <div class="container">
+            <div class="row center">
+                <h5 class="white-text">Contato</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/gvilardefarias">Gustavo Vilar</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/deboraqs">Débora Queiroz</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Programação Web
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.texto {
+    margin-left: 10px;
+}
+
+.fix {
+    position: fixed;
+    right: 50;
+    top: 30%;
+}
